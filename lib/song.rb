@@ -21,8 +21,8 @@ class Song
   end
 
   def import
-    self.files.each do |file|
-      song.new_by_filename(file)
+    files.each do |file|
+      self.new_by_filename(file)
   end
 
 

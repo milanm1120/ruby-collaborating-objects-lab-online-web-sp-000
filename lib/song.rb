@@ -20,4 +20,10 @@ class Song
     song
   end
 
+  def import
+    self.files.each do |file|
+      song.new_by_filename(file)
+  end
+
+
 end

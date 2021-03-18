@@ -12,7 +12,7 @@ class Artist
   end
 
   def add_song(song)
-    self.song
+    song.atrist = song
   end
 
 end
